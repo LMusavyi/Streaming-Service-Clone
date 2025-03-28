@@ -35,7 +35,7 @@ const MovieCard = ({id,
 
                     <Image source={icons.star} className="size-4"/>
                     <Text className="text-xs text-white font-bold uppercase"> 
-                        {Math.round(vote_average/2.00)}
+                        {(vote_average/2).toFixed(1)}
                     </Text>
                     </View>
 
